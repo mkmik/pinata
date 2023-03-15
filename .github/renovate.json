@@ -10,7 +10,6 @@
     "group:recommended",
     "helpers:pinGitHubActionDigests"
   ],
-  "includeForks": false,
   "labels": ["dependencies"],
   "packageRules": [
     {
