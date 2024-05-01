@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 pinata-sdk = "1.1.0"
-tokio = { version = "1.33", features = ["macros", "rt-multi-thread", "net"] }
+tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread", "net"] }
 anyhow = "1.0.82"
 structopt = "0.3"
