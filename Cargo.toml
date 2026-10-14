@@ -7,7 +7,9 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-pinata-sdk = "1.1.0"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "multipart", "json"] }
+serde = { version = "1", features = ["derive"] }
+walkdir = "2"
 tokio = { version = "1.33", features = ["macros", "rt-multi-thread", "net"] }
 anyhow = "1.0.82"
 structopt = "0.3"
